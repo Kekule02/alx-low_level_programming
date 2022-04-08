@@ -1,4 +1,4 @@
-#include <stdio.h>
+0;10;1c0;10;1c#include <stdio.h>
 /**
  * main -Entry point
  *
@@ -11,6 +11,6 @@ for (alphabet = 122;  alphabet >= 97; alphabet--)
 {
 putchar(alphabet);
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
