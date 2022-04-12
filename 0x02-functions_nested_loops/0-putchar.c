@@ -8,12 +8,12 @@
 
 int main(void)
 {
-int n = 0;
-char str_hbt[9] = "Holberton";
-while (n < 9)
+char ermias[] = "_putchar";
+int c;
+for (c = 0; c < 8; c++)
 {
-_putchar(str_hbt[n]);
-n += 1;
+_putchar(ermias[c]);
+}
 }
 _putchar('\n');
 return (0);
